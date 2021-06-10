@@ -1,0 +1,38 @@
+*{
+    background-color: #DDD5C2 ;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+    font-family: DM Sans;
+    color: #414141
+}
+p{
+    font-family: DM Sans;
+    color:  #414141;
+}
+.navbar{
+    background-color: #DDD5C2
+}
+
+.navbar-brand{
+    font-family: DM Sans;
+    font-weight: 700;
+    padding: 100px;
+    color: !important;
+}
+
+#hero-section h1{
+    margin-bottom: 15px;
+    font-size: 60px;
+}
+
+#hero-section .hero-section-left{
+    margin-top: 50px;
+}
+
+#hero-section .btn{
+    background-color: #414141;
+    font-family: DM Sans;
+    color: white;
+}
