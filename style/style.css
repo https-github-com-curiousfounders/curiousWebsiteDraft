@@ -1,5 +1,6 @@
 *{
-    background: #DDD5C2;
+    background-color:#DDD5C2;
+
 }
 h1,h2,h3,h4,h5,h6{
     font-family: DM Sans;
@@ -9,9 +10,10 @@ p{
     font-family: DM Sans;
     color:  #414141;
 }
-.navbar{
+/*.navbar{
     background-color: #DDD5C2
-}
+}*/
+
 
 .navbar-brand{
     font-family: DM Sans;
@@ -20,10 +22,23 @@ p{
     color: !important;
 }
 
+.navbar .nav-button{
+        
+        margin-top: 10px;
+        margin-right: 10px;
+        background: linear-gradient(to right , rgba(65,65,65,1), rgba(104,104,104,1));
+        font-family: DM Sans;
+        font-size: 18px;
+        color: white;
+        width: 210px;
+        height: 41px;
+    
+}
+
 #hero-section h1{
     margin: auto;
     margin-bottom: 15px;
-    font-size: 60px;
+    font-size: 55px;
 }
 
 #hero-section .hero-section-left{
@@ -31,7 +46,7 @@ p{
 }
 
 #hero-section .btn{
-    background-color: #414141;
+    background: linear-gradient(to right , rgba(65,65,65,1), rgba(104,104,104,1));
     font-family: DM Sans;
     color: white;
 }
